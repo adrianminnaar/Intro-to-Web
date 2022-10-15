@@ -4,11 +4,7 @@ body{
   background-color: #FCF7F8;
 }
 
-header {
+footer{
   text-align: center;
-}
-
-footer {
-  background-color: #343330;
-  text-align: center;
+  background-color: rgb(47, 59, 55);
 }
