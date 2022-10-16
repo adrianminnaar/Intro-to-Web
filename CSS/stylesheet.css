@@ -3,6 +3,14 @@ body{
   font-size:110%;
   background-color: #FCF7F8;
 }
+#imageProfile{
+  height: 15%;
+  width: 15%;  
+  border-radius: 50%;
+  border: 5px solid coral
+  
+
+}
 
 #header{
   font-family: 'Times New Roman', Times, serif;
@@ -18,9 +26,17 @@ footer{
 #Sidebar{
   width: 15%;
   background-color: #4c4748;
+  padding: 3rem;
   
 }
 .navlist{
   list-style:none;
+  padding: 0%;
  
-  }
+}
+.icons{
+
+  width: 5rem;
+  margin: 2rem;
+  height: auto;
+}

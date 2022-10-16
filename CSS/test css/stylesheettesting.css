@@ -8,14 +8,7 @@ header {
   text-align: center;
 }
 
-h2 {
-  border-style: dashed;
-  border-width: 3px;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  border-color: red;
-  border-radius: 10px 20px 30px 40px;    
-}
+
 image{
   border-bottom-left-radius: 10;
   border-bottom-right-radius: 10;
