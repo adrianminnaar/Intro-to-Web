@@ -2,13 +2,14 @@ body{
   font-family: 'Times New Roman', Times, serif;
   font-size:110%;
   background-color: #FCF7F8;
+  margin: left 5px;
+  padding: 5px;
 }
 #imageProfile{
-  height: 15%;
-  width: 15%;  
-  border-radius: 50%;
-  border: 5px solid coral
-  
+  width: 15%;
+  height: 15%; 
+  border-radius: 100%;
+  border: 5px solid coral 
 
 }
 
@@ -17,26 +18,36 @@ body{
   text-align: center;
   color: rgb(232, 238, 238);
   background-color: #4c4748;
+  padding: 0.5mm;
 }
 
 footer{
   text-align: center;
   background-color: #4c4748;
+  padding: 3px;
 }
-#Sidebar{
+#Sidebar{ 
+  margin-top: -3%; 
   width: 15%;
+  padding: 2rem;
   background-color: #4c4748;
-  padding: 3rem;
   
 }
-.navlist{
-  list-style:none;
-  padding: 0%;
- 
-}
+
 .icons{
 
   width: 5rem;
   margin: 2rem;
   height: auto;
+}
+p{
+  margin-block: 2rem;
+  padding-left: 2rem;
+  
+}
+h2{
+  padding-left: 2rem;
+}
+h3{
+  padding-left: 2rem;
 }
