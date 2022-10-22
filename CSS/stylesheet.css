@@ -4,6 +4,9 @@ body{
   background-color: #FCF7F8;
   margin: left 5px;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #imageProfile{
   width: 15%;
@@ -13,21 +16,29 @@ body{
 
 }
 
+
 #header{
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   color: rgb(232, 238, 238);
-  background-color: #4c4748;
+  background-color: #7a7475;
   padding: 0.5mm;
 }
 
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+
+
+}
 footer{
   text-align: center;
   background-color: #4c4748;
   padding: 3px;
 }
 #Sidebar{ 
-  margin-top: -3%; 
+  margin-top: 0%; 
   width: 15%;
   padding: 2rem;
   background-color: #4c4748;
