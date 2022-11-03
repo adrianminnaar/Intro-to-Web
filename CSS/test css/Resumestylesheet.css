@@ -4,6 +4,7 @@ body{
   background-color: rgb(221, 217, 213);
   
   
+  
 
 }
 
@@ -25,7 +26,7 @@ header {
 }
 footer {
   text-align: center;
-  background-color: rgb(92, 90, 88);
+  background-color: rgb(56, 54, 52);
   padding: 3px;
   
 }
@@ -33,13 +34,17 @@ footer {
 .main{
   display: flex;
   flex-direction: row;
-  overflow: unset;
+  overflow:inherit
+
+
+  
   }
 #navbar{
   margin-top: -2%; 
   width: 20%;
   padding: 2rem;
   background-color: rgb(92, 90, 88);
+  
 }
 .icons{
   width: 6%;
@@ -52,12 +57,20 @@ p{
   
 }
 h2{
+  box-sizing: border-box;
   padding-left: 2rem;
+  border-style: solid;
 }
 h3{
   padding-left: 2rem;
+  text-decoration-line: underline;
+  
 }
 h4{
   padding-left:  2rem;
   text-decoration-line: underline;
+}
+contents{
+  margin-left: 3rem;
+
 }
